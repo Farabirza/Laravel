@@ -1,0 +1,10 @@
+
+php artisan tinker
+
+> User
+User::create ([ 'username' => 'admin', 'email' => 'admin@gmail.com', 'password' => 'password', 'role' => 'admin' ])
+User::create ([ 'username' => 'user', 'email' => 'user@gmail.com', 'password' => 'password', 'role' => 'user' ])
+
+> Profile
+Profile::create ([ 'first_name' => 'Admin', 'last_name' => 'Management', 'gender' => 'male', 'occupation' => 'management', 'user_id' => 1 ])
+Profile::create ([ 'first_name' => 'Basic', 'last_name' => 'User', 'gender' => 'female', 'occupation' => 'student', 'user_id' => 2 ])
